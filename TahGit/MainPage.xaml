@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:TahGit" 
+             x:Class="TahGit.MainPage">
+    
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Watch your spending. 
+                     Plan for a project. 
+                     Set a DAILY savings goal 
+                     within a specific time-frame 
+                     and meet that TahGit!"
+               Margin="32"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="Olive"
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+        
+        <Image Source="tahgitlogo.png"
+               Aspect="AspectFit"></Image>
+        
+        <Label Text="Enter values then click BEGIN"
+               TextColor="Olive"
+               FontSize="17"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+        
+        <Image x:Name="arrow" Source="greenarrow.png"
+               Aspect="AspectFit"></Image>
+        
+        <Entry x:Name="Amount"
+               Placeholder="Amount (e.g. 120000)" 
+               PlaceholderColor="Gray"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"/>
+        
+       
+        
+       <Entry x:Name="Duration"
+               Placeholder="Time (in days)" 
+               HorizontalTextAlignment="Center"
+               PlaceholderColor="Gray"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"/>
+        
+        <Button Text="BEGIN"
+                FontSize="25"
+                FontAttributes="Bold"
+                TextColor="White"
+                BackgroundColor="Purple"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

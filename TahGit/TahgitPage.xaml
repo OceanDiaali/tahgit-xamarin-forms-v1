@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="TahGit.TahgitPage">
+    <ContentPage.Content>
+        <StackLayout>
+        <Label Text="Your TahGit:"
+               TextColor="Olive"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontSize="30"
+               FontAttributes="Bold"/>
+        <Label Text="Amount:"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Label Text="{Binding AmtValue}"
+               FontSize="30"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Label Text="Duration:"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Label Text="{Binding TimeValue}"
+               FontSize="30"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/> 
+            
+        <Label Text="Analysis:"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>  
+        <Label Text="{Binding RemainderValue}"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>    
+               
+        <Label Text="Tap the hour-glass to start tracker.."
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+            
+          
+       <Image x:Name="HourGlass" Source="hourglass.png">
+                <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                    Tapped="OnTapGestureRecognizerTapped"/>
+                </Image.GestureRecognizers>
+        </Image>
+
+            
+        <DatePicker x:Name="Calendarium"
+                    MinimumDate="05/18/2019"
+                    MaximumDate="12/31/2019"
+                    HorizontalOptions="Center"
+                    IsVisible="false"/>
+               
+        </StackLayout>    
+    </ContentPage.Content>
+</ContentPage>

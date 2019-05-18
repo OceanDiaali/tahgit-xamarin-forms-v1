@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{336BB788-7FF2-49C2-8A1B-8BAABA635310}|Default">
+  <MonoDevelop.Ide.ItemProperties.TahGit.Android PreferredExecutionTarget="Android.my_pixel" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TahGit/MainPage.xaml.cs">
+    <Files>
+      <File FileName="TahGit/MainPage.xaml" />
+      <File FileName="TahGit/MainPage.xaml.cs" Line="22" Column="30" />
+      <File FileName="TahGit/TahgitPage.xaml" />
+      <File FileName="TahGit/TahgitPage.xaml.cs" Line="53" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TahGit" expanded="True">
+            <Node name="TahGit" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+              <Node name="TahgitPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TahGit.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

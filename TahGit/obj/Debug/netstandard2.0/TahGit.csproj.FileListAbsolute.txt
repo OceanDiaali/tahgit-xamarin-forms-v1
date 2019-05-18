@@ -1,0 +1,13 @@
+/Users/apple/Xamarin/TahGit/TahGit/bin/Debug/netstandard2.0/TahGit.deps.json
+/Users/apple/Xamarin/TahGit/TahGit/bin/Debug/netstandard2.0/TahGit.dll
+/Users/apple/Xamarin/TahGit/TahGit/bin/Debug/netstandard2.0/TahGit.pdb
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/TahGit.csprojAssemblyReference.cache
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/TahGit.csproj.CoreCompileInputs.cache
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/TahGit.AssemblyInfoInputs.cache
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/TahGit.AssemblyInfo.cs
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/TahGit.dll
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/TahGit.pdb
+/Users/apple/Xamarin/TahGit/TahGit/obj/Debug/netstandard2.0/TahgitPage.xaml.g.cs
